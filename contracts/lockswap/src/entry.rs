@@ -16,10 +16,10 @@ pub fn main() -> Result<(), Error> {
     let maker_lockscript: Bytes = script.args().unpack();
 
     let data = load_cell_data(0, Source::GroupInput)?;
-    if data.len() < 16 {
+    if data.len() < 24 {
         return Err(Error::InsufficientCellDataSize);
     }
-    let order_ckb = u64::from_le_bytes(data[8..16].try_into().unwrap());
+    let order_ckb = u64::from_le_bytes(data[16..24].try_into().unwrap());
 
     // check `maker_lockscript` appeared in tx's outputs
     let find_taker = QueryIter::new(load_cell_lock, Source::Output)
