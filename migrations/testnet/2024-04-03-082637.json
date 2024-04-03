@@ -1,0 +1,13 @@
+{
+  "cell_recipes": [
+    {
+      "name": "lockswap",
+      "tx_hash": "0xdecf90c2550710f9d56e1f759f7c8e8c9e9cf01de53e92d0676197a40d7235a7",
+      "index": 0,
+      "occupied_capacity": 2395800000000,
+      "data_hash": "0x3049b8489e10eb4d9b16094183292fd5c29a680b5af7af2e1b7c0f3b8f677356",
+      "type_id": "0xc81267f99088090f05536a727adb7cbbceadad6bdb255a6dbde253dfe237c031"
+    }
+  ],
+  "dep_group_recipes": []
+}
