@@ -26,7 +26,7 @@ pub fn main() -> Result<(), Error> {
         .enumerate()
         .any(|(i, lock_script)| {
             let offer_ckb = load_cell_capacity(i, Source::Output).unwrap();
-            lock_script.as_bytes() == maker_lockscript && order_ckb == offer_ckb
+            lock_script.as_bytes() == maker_lockscript && order_ckb <= offer_ckb
         });
     if !find_taker {
         return Err(Error::InvalidTakerFormat);

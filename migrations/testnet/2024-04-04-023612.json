@@ -2,10 +2,10 @@
   "cell_recipes": [
     {
       "name": "lockswap",
-      "tx_hash": "0x231fcca362eaa390d1c960abfe78190a70a6e9a8d88e586975a3916faf9b7a66",
+      "tx_hash": "0x5e458a66906174c74eeca5fd5397675f1882eb9822ec680c50067eb31927d5a4",
       "index": 0,
       "occupied_capacity": 2395800000000,
-      "data_hash": "0x40679ca2c5e04854160aa5050263b32ed555345838447a9b0b8024d47c006246",
+      "data_hash": "0x6d76fd1f486592f402346ec6a876c7577362014181def6b8fd88b07192c12e9a",
       "type_id": "0xc81267f99088090f05536a727adb7cbbceadad6bdb255a6dbde253dfe237c031"
     }
   ],
